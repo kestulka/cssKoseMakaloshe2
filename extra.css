@@ -1,0 +1,45 @@
+.headerio_linkas1, .headerio_linkas2, .headerio_linkas3{
+    display: inline;
+    float: right;
+    margin: 0px 10px 0px;
+    color: black;
+}
+header{
+    position: sticky;
+
+}
+hr{
+    width: 100%;
+    border: 1px solid black;
+}
+.backgroundas{
+    /* width: 100%;
+    height: 100%; */
+    background-image: url(https://www.sgs.com/-/media/sgscorp/images/temporary/green-forest.cdn.en-CZ.1.jpg);
+    background-size: cover;
+    margin: 50% 5% 5%;
+    display: table-cell;
+}
+.inside{
+    width: 500px;
+    height: 300px;
+    background-color: grey;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background: rgba(255,255,255,0.5);
+    margin: 25% auto;
+}
+
+
+.nuotrauka1{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    display: block;
+    float: left;
+}
+.text1{
+    display: block;
+}
+
