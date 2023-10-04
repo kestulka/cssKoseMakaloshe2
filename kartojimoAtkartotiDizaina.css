@@ -1,0 +1,20 @@
+.backgroundas{
+    width: 1000px;
+    height: 800px;
+    background-image: url(https://mountainhouse.com/cdn/shop/articles/mountain-lake-featured_1024x.jpg?v=1599780000);
+    margin: 50% 5% 5%;
+    display: table-cell;
+}
+.inside{
+    width: 500px;
+    height: 300px;
+    background-color: grey;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background: rgba(255,255,255,0.5);
+    margin: 25% auto;
+}
+.orange{
+    color: rgb(255, 137, 2);
+}
