@@ -1,0 +1,58 @@
+div{
+    display: inline-flex;
+}
+img{
+    width: 600px;
+    height: 600px;
+}
+
+.pirmas{
+    position: relative;
+    margin: 10px;
+}
+.pirmas::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pirmas_tekstas{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+.pirmas img{
+    opacity: 0.60;
+}
+
+.antras{
+    position: relative;
+    margin: 10px;
+}
+.antras::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* --- reikalinga norint padaryti permatoma teksta --- */
+    height: 100%; /* --- reikalinga norint padaryti permatoma teksta --- */
+    background-color: rgba(255, 255, 255, 0.5); /* --- reikalinga norint padaryti permatoma teksta --- */
+}
+.antras_tekstas{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+.antras img{
+    opacity: 1;
+}
+
+

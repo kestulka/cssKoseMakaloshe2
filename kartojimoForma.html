@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kartojimoForma.css">
+    <title>Document</title>
+</head>
+<body>
+<header>Adresų knyga</header><p class="x">&#10006;</p>
+<form action="" method="get">
+    <p class="sukurti">Sukurti naują adresą</p>
+    <a class="grizti" href="google.lt"> &#60; Grįžti į adresų sąrašą</a>
+    <hr>
+    <div>
+        <label for="gavejas">Gavėjas: </label>
+        <input type="text" name="gavejas" id="gavejas" required>
+    </div>
+    <div>
+        <label for="imone">Įmonė: </label>
+        <input type="text" name="imone" id="imone" required>
+    </div>
+    <div>
+        <label for="salis">Šalis: </label>
+        <input type="text" name="salis" id="salis" required>
+    </div>
+    <div>
+        <label for="miestas">Miestas: </label>
+        <input type="text" name="miestas" id="miestas" required>
+    </div>
+    <div>
+        <label for="gatve">Gatvė: </label>
+        <input type="text" name="gatve" id="gatve" required>
+    </div>
+    <div>
+        <label for="namo_nr">Namo nr: </label>
+        <input type="number" name="namo_nr" id="namo_nr" required>
+    </div>
+    <div>
+        <label for="buto_nr">Buto nr:</label>
+        <input type="number" placeholder="parašykite buto Nr" name="buto_nr" id="buto_nr" >
+    </div>
+    <div>
+        <label for="pasto_kodas">Pašto kodas: </label>
+        <input type="number" minlength="5" maxlength="5" name="pasto_kodas" id="pasto_kodas" required>
+        <p>ieškoti</p>
+    </div>
+    <div>
+            <label for="gavejo_nr">Gavėjo mob. tel: </label>
+            <div class="pliusas">&#43;</div>
+        <input class="numeris" type="text" placeholder="3706" name="gavejas" id="gavejas" required>
+        </div> 
+    </div>
+    <div>
+        <label for="pastas">El. paštas: </label>
+        <input class="pastas" type="email" placeholder="Pvz. vardas.pavarde@pastas.lt" name="gavejas" id="gavejas" required>
+    </div>
+    <div>
+        <label for="katalogas">Katalogas: </label>
+        <input type="email" placeholder="Pasirinkite katalogus" name="gavejas" id="gavejas" required>
+    </div>
+    <hr>
+<input type="submit" value="Saugoti" class="mygtukas">
+
+</form>
+
+</body>
+</html>

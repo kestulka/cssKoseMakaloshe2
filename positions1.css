@@ -1,0 +1,64 @@
+.tevas1{
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    float: left;
+    margin: 0 20px 20px;
+}
+.vaikas1{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 55px 80px 55px; /* ar yra budas sucentruoti nesizaidziant su margin skaiciais? */
+    border: 1px solid black;
+}
+
+.konteineris{
+    width: 100px;
+    height: 110px;
+    background-color: grey;
+    float: left;
+    margin: 10px 10px 0px;
+}
+.tevas2{
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    float: left;
+    margin: 0 10px 10px;
+    top: 6%;
+    border-style: inset;
+    border-color: black;
+    position: absolute;
+}
+
+.vaikas2{
+    width: 80px;
+    height: 85px;
+    background-color: red;
+    float: left;
+}
+
+blockquote::after {
+    content: ""; 
+    background-image: url("https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&quality=85&auto=format&fit=max&s=a52bbe202f57ac0f5ff7f47166906403");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 700px;
+    height: 500px;
+    opacity: 50%;
+    z-index: -1; 
+}
+
+header{
+    position: sticky;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: yellow;
+    top: 0;
+}

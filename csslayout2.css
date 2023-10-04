@@ -1,0 +1,88 @@
+.virsutine {
+    height: 180px;
+    width: 100%;
+    background-color: rgb(240, 197, 118)
+  }
+  
+  .logo {
+    float: left;
+    width: 5%; /* Adjust the width as needed */
+    height: 40%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(219, 103, 122);
+    margin: 50px 50px 0;
+  }
+  
+  .navigation {
+    float: right;
+    width: 5%; /* Adjust the width as needed */
+    height: 40%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(230, 160, 30);
+    margin: 50px 50px 0;
+  }
+
+  .virsutine p{
+    vertical-align: center;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .vidurys{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(141, 181, 242);
+  }
+
+  .sidebar{
+    float:left;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(230, 182, 93);
+    height: 88%;
+    margin: 20px 20px;
+    width: 15%;
+  }
+
+  .sub1{
+    float:right;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(230, 182, 93);
+    height: 38%;
+    margin: 20px 20px;
+    width: 75%;
+  }
+
+  .sub2{
+    float:right;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(230, 182, 93);
+    height: 38%;
+    margin: 20px 20px;
+    width: 75%;
+    clear: right; /* Clear the float to stack below sub1 */
+  }
+
+  .vidurys p{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+  }
+
+  .footer{
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(57, 157, 69);
+    box-sizing: border-box;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
